@@ -6,12 +6,12 @@ public class RectIf extends MyFrame
 		int x=30;
 		setColor(0,128,0);
 		int i;
-		int y=80;
+		int takasa = 10;
 		for (i=0 ; i<9 ; i++)
 		{
-			fillRect(x,y,10,100);
+			fillRect(x,80,10,takasa);
 			x+=20;
-			y+=20;
+			takasa+=20;
 		}
 	}
 
