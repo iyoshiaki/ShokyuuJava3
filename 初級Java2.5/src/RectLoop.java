@@ -5,11 +5,14 @@ public class RectLoop extends MyFrame
 	{
 		setColor(0,128,0);
 		int x = 30;
-		while(x<=170)
+		for(int i=0;i<10;i++)
 		{
-			fillRect(x,80,10,100);
-			x+=20;
+			 System.out.println(x);
+			 fillRect(x,80,10,100);
+			 x+=20;
 		}
 	}
+	
+	
 
 }
