@@ -2,6 +2,11 @@
 public class Face 
 {
 	int x,y;
+	public Face(int x,int y)
+	{
+		this.x=x;
+		this.y=y;
+	}
 	public void draw(MyFrame frame)
 	{
 		frame.fillOval(x,y,50,100);
